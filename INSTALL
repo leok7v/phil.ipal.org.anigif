@@ -1,0 +1,23 @@
+There is no "configure".  Perhaps some day I will autoconf this package.
+But then, perhaps not.  GIF should slowly die, and ANGIF may not have
+much of a life as a result.
+
+The provided Makefile assumes the compiler and loader is gcc and that
+a shared library is to be built.  Just type "make" to compile and build
+the library.  Type "make install" to install it.  Things are installed
+wherever the symlinks "Install_bin", "Install_inc", and "Install_lib"
+point to.
+
+The "pnmtogif" program needs the PBM (Portable Bit Map) library.  If
+you don't have it, you can't use "pnmtogif".  If you did a full install
+of a recent version of Red Hat Linux you have PBM.  Other distributions
+of Linux and other Unix systems may also have it.
+
+Bug reports go to: phil@ipal.org
+In order to avoid being mistaken for spam, be sure to put "ANGIF:" at the
+beginning of your subject.  I will be taking bug reports and hope to release
+fixed versions in the future.  However, I will not be doing free support.
+You've got the source code.
+
+Phil Howard
+phil@ipal.org

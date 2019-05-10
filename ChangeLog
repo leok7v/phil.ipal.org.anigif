@@ -1,0 +1,14 @@
+angif-1.0.0beta3 1999/12/12
+	- Corrected a bug in true-color partitioning where some images
+	  with a size N*16+1 would result in a recursion stack overflow
+	  due to an incorrect size comparison.
+	
+angif-1.0.0beta2 1999/08/31
+
+	- Added -lm to Makefile to link library with libm
+
+	- Added PNML as a symbol in Makefile
+
+angif-1.0.0beta1 1999/08/30
+
+	- First beta release

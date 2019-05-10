@@ -1,0 +1,28 @@
+This is the first beta if the ANGIF library.  This is a rough cut beta
+which has not been fully tested.  I've used some of it but not all of
+it, so beware.  There is very little documentation.  The function calls
+are described in the source code as comments.
+
+ANGIF features:
+
+*   LZW-free!  It contains no code implementing the patended LZW algorithm.
+
+*   Supports GIF animation via a sequence of calls for each frame or portion
+    of a frame in the animation sequence.
+
+*   Supports true-color 24-bit images by means of multiple image blocks.
+    A recursive "divide and conquer" algorithm is used to divide up the
+    image into a block contains no more than 256 colors.
+
+ANGIF is not A graphics composing tool.  Consider using tools from Tom
+Boutell's GD library to The GIMP for a range from low level programming
+to high level interactive in building images.
+
+Bug reports go to: phil@ipal.org
+In order to avoid being mistaken for spam, be sure to put "ANGIF:" at the
+beginning of your subject.  I will be taking bug reports and hope to release
+fixed versions in the future.  However, I will not be doing free support.
+You've got the source code.
+
+Phil Howard
+phil@ipal.org
